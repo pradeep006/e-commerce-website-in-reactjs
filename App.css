@@ -1,0 +1,183 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+.App{
+    background-color: #F5F5F5;
+}
+.logo{
+    position: relative;
+}
+.Logo{
+    margin: 0 0 0 19%;
+    text-transform: uppercase;
+}
+
+.Logo-Multi{
+    padding: 4px 7px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #FFD333;
+    background-color: #3D464D;
+}
+
+.Logo-Shop{
+    padding: 4px 7px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #3D464D;
+    background-color: #FFD333;
+}
+
+.dropdown-list{
+    background-color: #FFD333;
+    color: #000;
+}
+
+.cart-icon{
+    margin: 0% 5% 2% 0%;
+}
+
+.quality-row{
+    margin: 5rem 2.5rem 0 2.5rem ;
+    font-weight: 700;
+}
+
+.Card{
+    width: 18rem;
+    margin: 1rem;
+}
+
+.card-row{
+    margin-left: 2rem;
+}
+
+.card-row-down{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.foot{
+    background-color: black;
+    color: #fff;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+ .footer-list li a, .footer-list li{
+    list-style-type: none;
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-icon{
+    position: relative;
+}
+
+.cart-icon .cart-heart{
+    position: absolute;
+    top: 16px;
+    right: 80px;
+}
+
+.cart-icon .cart-add{
+    position: absolute;
+    top: 16px;
+    right: 40px;
+}
+
+.cart-icon .cart-profile{
+    position: absolute;
+    top: 16px;
+}
+
+.cart-icon .cart-add, .cart-icon .cart-heart, .cart-icon .cart-profile{
+    color: #FFD333;
+}
+
+.load-button{
+    background-color: #FFD333; 
+    border: none; 
+    color: #3D464D;
+    font-weight: 800;
+    position: absolute;
+    left: 630px;
+    margin-top: 40px;
+}
+
+.off{
+    background-image: url(./asserts/offer-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 8rem  0 0 0;
+}
+
+.off .offer{
+    width: 100%;
+    padding: 80px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width:1200px){
+    .logo{
+        position: none ;
+    }
+    .Logo{
+        margin:0%;
+    }
+
+    .Logo-Multi, .Logo-Shop{
+        font-size: 1.8rem;
+    }
+
+    .cart-icon{
+        position: absolute;
+        right: 25%;
+    }
+    .cart-icon .cart-heart{
+        position: absolute;
+        top: 6px;
+        right: 70px;
+    }
+    
+    .cart-icon .cart-add{
+        position: absolute;
+        top: 6px;
+        right: 35px;
+    }
+
+    .cart-icon .cart-profile{
+        position: absolute;
+        top: 6px;
+    }
+
+    .load-button{
+        left: 200px;
+    }
+
+    .quality-row{
+        margin: 0;
+    }
+
+    .Card{
+        width: 25rem;
+
+    }
+
+    .card-row{
+        margin-left: 1rem;
+    }
+
+    .card-row-down{
+        margin-left: 1rem;
+        margin-top: 0;
+    }
+}
